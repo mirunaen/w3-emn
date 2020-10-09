@@ -1,27 +1,15 @@
-#var of int
-a = 21
-type(a)
 
+#var of int (exercise1)
+a = int(21)
 #constans
 PI = 3.1415926
-print(PI)
-
 #float
-b = 3.2
-type(b)
-
+b = float(3.2)
 #complex
-c = 2 + 3j
-type(c)
-
+c = complex(28)
 #strings
-city = "Madrid"
-type(city)
-#lists(arrays in JS)
-
-days = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"]
-days[2] = "Saturday"
-len(days)
-
+city = str("Madrid")
 #booleans
-print(9 > 10)
+d=bool(1)
+print(a,PI,b,c,city,d)
+#Python is dynamic, so you don't need to declare things; they exist automatically in the first scope where they're assigned.
